@@ -1,0 +1,1024 @@
+/*
+    color-principal: #7453fc (purple)
+*/
+
+/* IMPORTS STARTS */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
+
+/* IMPORTS END */
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+/* ~~~~~~~~~~~~~~~~ MAIN CONTAINER START ~~~~~~~~~~~~~~~~ */
+
+.mainPage {
+    width: 100%;
+    height: 300em;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 53em;
+
+    background-image: url(../assets/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.navContainer {
+    position: absolute;
+    left: 12%;
+    top: 3%;
+
+    width: 75%;
+    height: 10%;
+
+    background: white;
+    border-radius: 25px;
+
+    display: flex;
+}
+
+.logo {
+    position: absolute;
+    top: 18%;
+    left: 6%;
+
+    width: 13%;
+}
+
+.nav {
+    position: absolute;
+    right: 7%;
+
+    
+    height: 100%;
+    width: 50%;
+    
+    display: inline-flex;
+}
+
+.navList {
+    position: absolute;
+    bottom: 38%;
+
+    display: inline-flex;
+}
+
+.linkItem {
+    text-decoration: none;
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.item1{
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style: none;
+    color: black;
+}
+
+.home {
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+
+}
+
+.about {
+    transition: 0.7s all;
+}
+
+.about:hover {
+    transition: 0.7s all;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+}
+
+.explore {
+    transition: 0.7s all;
+}
+
+.explore:hover {
+    transition: 0.7s all;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+}
+.item-details {
+    transition: 0.7s all;
+}
+
+.item-details:hover {
+    transition: 0.7s all;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+}
+.contact {
+    transition: 0.7s all;
+}
+
+.contact:hover {
+    transition: 0.7s all;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+}
+
+/* ~~~~~~~~~~~~~~~~ NAV CONTAINER END ~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~ MAIN CONTAINER START ~~~~~~~~~~~~~~~~ */
+
+.titleContainer {
+    position: absolute;
+    top: 31%;
+    width: 41%;
+    height: 84%;
+    left: 4%;
+}
+
+.subtitle {
+    font-family: system-ui;
+    font-size: 20px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+
+.title {
+    font-family: system-ui;
+    font-size: 65px;
+    color: whitesmoke;
+}
+
+.mainText {
+    font-family: system-ui;
+    font-size: 18px;
+    color: whitesmoke;
+    padding-top: 15px;
+}
+
+.mainButtons {
+    position: absolute;
+    padding-top: 6%;
+    width: 100%;
+    height: 13%;
+}
+
+.linkButton {
+    text-decoration: none;
+    color: white;
+}
+
+.ex-nft {
+    position: absolute;
+    left: 5%;
+
+    padding: 3%;
+    background: #7453fc;
+    border-radius: 25px;
+    transition: 0.7s all;
+}
+
+.ex-nft:hover {
+    background: white;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+}
+
+.vid {
+    position: absolute;
+    left: 55%;
+
+    padding: 3%;
+    background: #7453fc;
+    border-radius: 25px;
+    transition: 0.7s all;
+}
+
+.vid:hover {
+    background: white;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+
+}
+
+.picMainContainer {
+    position: absolute;
+    top: 30%;
+    width: 51%;
+    height: 84%;
+    right: 0%;
+    align-items: center;
+    text-align: center;
+}
+
+.menMain {
+    animation: men 10s ease-out normal;
+}
+
+/* ~~~~~~~~~~~~~~~~ MAIN CONTAINER END ~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~ CATEGORIES CONTAINER START ~~~~~~~~~~~~~~~~~ */
+
+.categoriesContainer {
+    position: absolute;
+    width: 100%;
+    height: 85em;
+    background: url(./assets/dark-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.line-dec {
+    position: absolute;
+    top: 6%;
+    width: 10%;
+    height: 0.18%;
+    background: #7453fc;
+    left: 44.5%;
+    border-radius: 200%;
+}
+
+.line-dec2 {
+    position: absolute;
+    top: 45%;
+    width: 10%;
+    height: 0.18%;
+    background: #7453fc;
+    left: 44.5%;
+    border-radius: 200%;
+}
+
+.categoriesTitle {
+    position: absolute;
+    top: 8.5%;
+    left: 35.5%;
+    color: white;
+    font-size: 25px;
+}
+
+.collectionTitle {
+    position: absolute;
+    top: 48.5%;
+    left: 34.5%;
+    color: white;
+    font-size: 25px;
+}
+
+.strongW {
+    color: #7453fc;
+}
+
+.item-list {
+    position: absolute;
+    top: 16%;
+    left: 1%;
+    width: 90%;
+    height: 20%;
+    /* background: wheat; */
+    display: inline-flex;
+}
+
+.item-icon1 {
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    width: 15%;
+    height: 85%;
+    background: #282b2f;
+    border-radius: 30px;
+    border: 1px solid #404245;
+    margin-right: 3%;
+}
+
+.itIcon {
+    position: absolute;
+    width: 9em;
+    bottom: 38%;
+    left: 15%;
+}
+
+.linkCat-item {
+    position: absolute;
+    text-decoration: none;
+    padding: 6% 15%;
+    background: white;
+    bottom: -10%;
+    left: 19%;
+    border-radius: 17px;
+    font-size: 16px;
+    transition: 0.7s;
+}
+
+.linkCat-item:hover {
+    background: #7453fc;
+    color: white;
+    text-shadow: 1px 1px 5px whitesmoke;
+
+}
+
+.titleItem {
+    position: absolute;
+    bottom: 25%;
+    left: 27%;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.item-icon2 {
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    width: 15%;
+    height: 85%;
+    background: #282b2f;
+    border-radius: 30px;
+    border: 1px solid #404245;
+    margin-right: 3%;
+}
+
+.item-icon3 {
+    position: absolute;
+    top: 8%;
+    left: 38.1%;
+    width: 15%;
+    height: 85%;
+    background: #282b2f;
+    border-radius: 30px;
+    border: 1px solid #404245;
+    margin-right: 3%;
+}
+
+.item-icon4 {
+    position: absolute;
+    top: 8%;
+    left: 56.1%;
+    width: 15%;
+    height: 85%;
+    background: #282b2f;
+    border-radius: 30px;
+    border: 1px solid #404245;
+    margin-right: 3%;
+}
+
+.vwItem {
+    left: 21%;
+}
+
+.item-icon5 {
+    position: absolute;
+    top: 8%;
+    left: 74.1%;
+    width: 15%;
+    height: 85%;
+    background: #282b2f;
+    border-radius: 30px;
+    border: 1px solid #404245;
+    margin-right: 3%;
+}
+
+.valItem {
+    left: 31%;
+}
+
+.item-icon6 {
+    position: absolute;
+    top: 8%;
+    left: 92.1%;
+    width: 15%;
+    height: 85%;
+    background: #282b2f;
+    border-radius: 30px;
+    border: 1px solid #404245;
+    margin-right: 3%;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+main#carousel {
+    position: absolute;
+    bottom: 75%;
+    right: -745%;
+    grid-row: 1 / 2;
+    grid-column: 1 / 8;
+    width: 86vw;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    --items: 5;
+    --middle: 3;
+    --position: 1;
+    pointer-events: none;
+  }
+  
+  .item {
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    transition: all 0.25s linear;
+    transform: rotateY(calc(-10deg * var(--r)))
+      translateX(calc(-300px * var(--r)));
+    z-index: calc((var(--position) - var(--abs)));
+
+    /* ----- */
+
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+  }
+
+  .inputCarrousel {
+    position: absolute;
+    top: 87%;
+    left: 48%;
+  }
+  
+  div.item:nth-of-type(1) {
+    --offset: 1;
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+  }
+  div.item:nth-of-type(2) {
+    --offset: 2;
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+  }
+  div.item:nth-of-type(3) {
+    --offset: 3;
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+  }
+  div.item:nth-of-type(4) {
+    --offset: 4;
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+  }
+  div.item:nth-of-type(5) {
+    --offset: 5;
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+  }
+  
+  input:nth-of-type(1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+  input:checked {
+    color: #7453fc;
+  }
+
+  input:nth-of-type(1):checked ~ main#carousel {
+    --position: 1;
+  }
+  
+  input:nth-of-type(2) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(2):checked ~ main#carousel {
+    --position: 2;
+  }
+  
+  input:nth-of-type(3) {
+    grid-column: 4 /5;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(3):checked ~ main#carousel {
+    --position: 3;
+  }
+  
+  input:nth-of-type(4) {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(4):checked ~ main#carousel {
+    --position: 4;
+  }
+  
+  input:nth-of-type(5) {
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+  }
+  input:nth-of-type(5):checked ~ main#carousel {
+    --position: 5;
+  }
+  
+  .imgItem {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  .titleItem {
+    color: whitesmoke;
+    position: absolute;
+    bottom: 35%;
+    left: 25%;
+    font-weight: 500;
+  }
+
+  .lineItem {
+    position: relative;
+    bottom: -13%;
+    width: 90%;
+    left: 4%;
+    opacity: 0.2;
+  }
+
+  .subtitleItem {
+    position: absolute;
+    left: 5%;
+    bottom: 18%;
+    color: whitesmoke;
+    font-weight: 400;
+  }
+
+  .collectionsItem {
+    position: absolute;
+    left: 5%;
+    bottom: 11%;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+  }
+
+  .categorySubtitle {
+    position: absolute;
+    right: 10%;
+    bottom: 18%;
+    color: whitesmoke;
+    font-weight: 400;
+  }
+
+  .categoryItem {
+    position: absolute;
+    left: 64%;
+    bottom: 11%;
+
+    font-size: 18px;
+    font-weight: 500;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+  }
+
+/* background-items-color: #282b2f; 
+   border-items-color: #404245;
+*/
+/* ~~~~~~~~~~~~~~~~ CATEGORIES CONTAINER END ~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~ CREATENFT CONTAINER START ~~~~~~~~~~~~~~~~~ */
+
+.createNftContainer {
+    position: absolute;
+    top: 138em;
+    width: 100%;
+    background: url('./assets/createnft-bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 37em;
+}
+
+.line-dec3 {
+    position: absolute;
+    top: 20%;
+    width: 10%;
+    height: 0.4%;
+    background: whitesmoke;
+    left: 4.5%;
+    border-radius: 329%;
+}
+
+.titleCreate {
+    position: absolute;
+    left: 4.3%;
+    top: 24%;
+    font-size: 25px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.createIcon {
+    position: absolute;
+    right: 7%;
+    width: 100px;
+    top: 13%;
+    background: white;
+    border-radius: 100%;
+}
+
+.createSteps {
+    position: absolute;
+    top: 38%;
+    width: 90%;
+    height: 45%;
+    left: 4%;
+}
+
+.step1 {
+    position: absolute;
+    width: 33.3%;
+    height: 100%;
+}
+
+.step2 {
+    position: absolute;
+    width: 33.3%;
+    height: 100%;
+    left: 33.3%;
+}
+
+.step3 {
+    position: absolute;
+    width: 33.3%;
+    height: 100%;
+    left: 66.6%;
+}
+
+.titleStep {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.lineStep {
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.pStep {
+    position: absolute;
+    left: 10%;
+    top: 51%;
+    font-weight: 300;
+    color: whitesmoke;
+    width: 80%;
+}
+
+.stepBystep1 {
+    position: absolute;
+    width: 19.3%;
+    transform: rotate(90deg);
+    top: 49.5%;
+    left: 23.6%;
+}
+
+.stepBystep2 {
+    position: absolute;
+    width: 19.3%;
+    transform: rotate(90deg);
+    top: 49.5%;
+    left: 56.8%;
+}
+
+.createBtn {
+    position: absolute;
+    text-decoration: none;
+    top: 88%;
+    left: 44%;
+    position: absolute;
+    padding: 1%;
+    color: #7453fc;
+    background: white;
+    border-radius: 25px;
+    transition: 0.7s all;
+    font-weight: 500;
+}
+
+.createBtn:hover {
+    background: #282b2f;
+    text-shadow: 1px 1px 5px #7453fc;
+}
+
+/* ~~~~~~~~~~~~~~~~ CREATENFT CONTAINER END ~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~~~~ PRODUCTS CONTAINER START ~~~~~~~~~~~~~~~~~ */
+
+
+.marketContainer {
+    background-image: url('./assets/dark-bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    position: absolute;
+    top: 175em;
+    width: 100%;
+    height: 120em;
+}
+
+.line-dec4 {
+    position: absolute;
+    top: 4.5%;
+    width: 10%;
+    height: 0.18%;
+    background: #7453fc;
+    left: 7.5%;
+    border-radius: 200%;
+}
+
+.marketTitle {
+    position: absolute;
+    left: 7.5%;
+    top: 6%;
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.productsContainer {
+    position: absolute;
+    left: 7.5%;
+    top: 12%;
+    width: 80%;
+    height: 70em;
+    display: inline-flex;
+}
+
+.productItem1 {
+    position: absolute;
+    width: 50%;
+    height: 42%;
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+    margin-right: 5%;
+}
+
+.productItem2 {
+    position: absolute;
+    width: 50%;
+    height: 42%;
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+    margin-right: 5%;
+    left: 55.1%;
+}
+
+.productItem3 {
+    position: absolute;
+    width: 50%;
+    height: 42%;
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+    margin-right: 5%;
+    top: 47.5%;
+}
+
+.productItem4 {
+    position: absolute;
+    width: 50%;
+    height: 42%;
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+    margin-right: 5%;
+    top: 47.5%;
+    left: 55.5%;
+}
+
+.productItem5 {
+    position: absolute;
+    width: 50%;
+    height: 42%;
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+    margin-right: 5%;
+    top: 95.5%;
+}
+
+.productItem6 {
+    position: absolute;
+    width: 50%;
+    height: 42%;
+    background: #282b2f;
+    border: 1px solid #404245;
+    border-radius: 30px;
+    margin-right: 5%;
+    top: 95.5%;
+    left: 55.5%;
+}
+
+
+.imgProduct {
+    position: absolute;
+    left: 3%;
+    top: 6%;
+    border-radius: 30px;
+    height: 87%;
+}
+
+.titleProduct {
+    position: absolute;
+    top: 10%;
+    left: 49%;
+    font-size: 22px;
+    color: whitesmoke;
+    font-weight: 400;
+}
+
+.profileimgProduct {
+    position: absolute;
+    border-radius: 100%;
+    top: 21%;
+    left: 50%;
+    box-shadow: 0px 0px 7px 1px;
+}
+
+.profileName {
+    position: absolute;
+    top: 21%;
+    left: 60.5%;
+    width: 25%;
+    height: 13%;
+}
+
+.nameProfile {
+    position: absolute;
+    color: white;
+    font-weight: 300;
+    top: -1px;
+}
+
+.tagProfile {
+    position: absolute;
+    top: 39%;
+    font-size: 13px;
+    font-weight: 500;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+    transition: 0.7s all;
+    text-decoration: none;
+}
+
+.tagProfile:hover {
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px whitesmoke;
+    text-decoration: none;
+}
+
+.lineProfile {
+    position: absolute;
+    width: 45%;
+    color: gray;
+    top: 37%;
+    left: 49%;
+}
+
+.dataProfile {
+    position: absolute;
+    top: 43%;
+    left: 49%;
+    width: 46%;
+    height: 32%;
+}
+
+.cBid {
+    position: absolute;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 400;
+    top: 5%;
+}
+
+.cBidEnds {
+    position: absolute;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 400;
+    top: 5%;
+    right: 0;
+}
+
+.cBidNum {
+    position: absolute;
+    top: 21%;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.timeEnds {
+    position: absolute;
+    top: 21%;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+    font-size: 20px;
+    font-weight: 700;
+    right: 0;
+}
+
+.priceItem {
+    position: absolute;
+    color: whitesmoke;
+    font-weight: 400;
+    top: 55%;
+    font-size: 13.3px;
+}
+
+.dateEnds {
+    position: absolute;
+    color: whitesmoke;
+    font-weight: 400;
+    top: 55%;
+    font-size: 13.3px;
+    right: 0;
+}
+
+.itemDetails {
+    position: absolute;
+    top: 82%;
+    right: 5%;
+    color: #7453fc;
+    text-shadow: 1px 1px 5px #7453fc;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.7s all;
+}
+
+.itemDetails:hover {
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px whitesmoke;
+    font-weight: 600;
+    font-size: 16px;
+}
+/* ~~~~~~~~~~~~~~~~ PRODUCTS CONTAINER END ~~~~~~~~~~~~~~~~~ */
+
+.footer {
+    position: absolute;
+    top: 295em;
+
+    width: 100%;
+    height: 5em;
+
+    background: url('./assets/createnft-bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    text-align: center;
+    align-items: center;
+}
+
+
+.textFooter {
+    position: relative;
+    top: 35%;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.linkedIn {
+    color: whitesmoke;
+    transition: 0.7s all;
+}
+
+.linkedIn:hover {
+    text-shadow: 1px 1px 5px whitesmoke;
+}
+/* Keyframes */
+
+@keyframes men {
+    0% {
+      opacity: 0;
+      transform: scale(1.5) translateY(-0.75em);
+    }
+    20% {
+      opacity: 1;
+    }
+    89% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    100% {
+      transform: translateZ(-1000em);
+    }
+  }
